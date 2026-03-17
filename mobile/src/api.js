@@ -1,6 +1,6 @@
 // Change this to your backend's IP when running on a real device
 // e.g. 'http://192.168.1.100:8000'
-const BASE_URL = 'http://10.0.2.2:8000'; // Android emulator → localhost
+const BASE_URL = 'http://YOUR_MACHINE_IP:8000'; // e.g. http://192.168.1.50:8000
 
 async function request(method, path, body) {
   const opts = {
